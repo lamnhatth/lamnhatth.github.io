@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
 
+body {
+  font-family: 'JetBrains Mono', monospace; 
+  margin: 0;
+  padding: 0;
+  background-color: #91BAD6;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #bce3ff;/*faded blue header color*/
+  color: #000000;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+} 
+
+img {
+  width: 500px; 
+  height: auto; /*maintain the original ratio */
+  display: block; /*center alignment */
+  margin: 20px auto; /*center the image above the bio box */
+}
+
+p {
+  text-align: justify; /*align the bio text*/
+  line-height: 1.6; /*improves text readability */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
